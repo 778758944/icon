@@ -5,7 +5,7 @@ It is an icon library base on SVG and include all svg resource except Twotone in
 
 ### Use independently
 ```jsx
-import Icon from '@xwt/icon';
+import Icon from 'tomxingicon';
 
 ReactDOM.render(
   <Icon type="loading" />,
@@ -18,8 +18,8 @@ It is not necessary to change your code to replace the Icon. However, what you n
 ```js
     ...
     alias: {
-        'antd/es/icon$': path.resolve(__dirname, './node_modules/\@xwt\/icon/lib'),
-        '../icon$': path.resolve(__dirname, './node_modules/\@xwt\/icon/lib')
+        'antd/es/icon$': path.resolve(__dirname, './node_modules/tomxingicon/lib'),
+        '../icon$': path.resolve(__dirname, './node_modules/tomxingicon/lib')
     }
 ```
 
@@ -42,8 +42,8 @@ For example:
 
 webpack.config.js
 ```js
-const IconLoadPlugin = require("@xwt/icon/plugin");
-const IconHtmlWebpackLoaderPlugin = require("@xwt/icon/plugin/icon-html-loader-plugin");
+const IconLoadPlugin = require("tomxingicon/plugin");
+const IconHtmlWebpackLoaderPlugin = require("tomxingicon/plugin/icon-html-loader-plugin");
 
 module.exports = {
   ...
@@ -71,7 +71,7 @@ icon.config.json
 
 index.jsx
 ```jsx
-    import Icon from '@xwt/icon'
+    import Icon from 'tomxingicon'
     import icons from "icon.json"
     Icon.loadSvg(icons);
 

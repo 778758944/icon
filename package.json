@@ -1,5 +1,5 @@
 {
-  "name": "@xwt/icon",
+  "name": "tomxingicon",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "dev-inspect": "node --inspect ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode=development --port 8081",
     "getIcon": "generateicon -o ./src/resource/icon.json"
   },
-  "author": "",
+  "author": "tomxing",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^16.7.18",
