@@ -1,7 +1,7 @@
 ## What is this
 It is an icon library base on SVG and include all svg resource except Twotone in ant-design. Because antd will load all the svg resource once you using Icon or some other component which using Icon internally, it will make your js bundle 500kb bigger, but in most case, you just need only a few of svg in it.
 
-## How to use
+## How to use test
 
 ### Use independently
 ```jsx
